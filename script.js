@@ -84,7 +84,7 @@ function userLogin() {
     if (currentUser) {
 
         if (currentUser.Password == userPassword) {
-            window.location.pathname = '/Dashboard.html'
+            window.location.pathname = '/SMIT-Student-Portal-Login-Registration-using-Localstorage/Dashboard.html'
         } else {
             alert('Password Did Not Matched')
         };
@@ -92,4 +92,5 @@ function userLogin() {
     } else {
         alert('Account Not Registration with this email');
     };
+
 };
